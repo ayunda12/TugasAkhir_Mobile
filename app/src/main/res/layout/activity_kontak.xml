@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D8BAFB">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8BAFB">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ickontak" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/textviewwa"
+                    android:layout_width="278dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="55dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center"
+                    app:cardUseCompatPadding="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="276dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="277dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/wa"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/waaa"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="0852-3224-9295"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/waa"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/waaa"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="@string/hyperlink2"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="278dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="276dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="277dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/fbb"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/fb"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="Dyah Aiiyuw Salon"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/fb"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="@string/fb"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="278dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="276dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="277dp"
+                            android:layout_height="55dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/igg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ig"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="@dyah_ayu_salon"
+                                android:textColor="@android:color/black"
+                                android:textSize="23sp" />
+
+                            <TextView
+                                android:id="@+id/ig"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="@string/ig"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="278dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="277dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="277dp"
+                            android:layout_height="120dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/allamat"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/alamat"
+                                android:drawablePadding="0dp"
+                                android:gravity="center_horizontal"
+                                android:text=" Jl. Puring No.6, Beteng, Sidomekar, Semboro, Kabupaten Jember, Jawa Timur 68157"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/alamat"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawablePadding="0dp"
+                                android:gravity="center"
+                                android:text="@string/alamat"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
+</ScrollView>
