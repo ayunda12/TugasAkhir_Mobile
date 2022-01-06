@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailPesananSayaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Paket"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+    <EditText
+        android:enabled="false"
+        android:id="@+id/etpaket"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Acara"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+    <EditText
+        android:enabled="false"
+        android:id="@+id/ettglacara"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Pesan"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:enabled="false"
+        android:id="@+id/ettglpesan"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:enabled="false"
+        android:inputType="text"
+        android:id="@+id/etharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status Pemesanan"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+    <EditText
+        android:enabled="false"
+        android:inputType="text"
+        android:id="@+id/etstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status Pembayaran"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+    <EditText
+        android:enabled="false"
+        android:inputType="text"
+        android:id="@+id/etstatusbyr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bukti Pembayaran"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imagebukti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/btnselesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Selesai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn" />
+
+        <Button
+            android:id="@+id/btnbayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bayar"
+            android:layout_marginRight="30dp"
+            app:layout_constraintTop_toTopOf="@+id/btn"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <Button
+            android:id="@+id/btnbukti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:text="Bayar"
+            app:layout_constraintTop_toTopOf="@+id/btn"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <EditText
+        android:visibility="gone"
+        android:inputType="text"
+        android:id="@+id/etidbooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:visibility="gone"
+        android:enabled="false"
+        android:inputType="text"
+        android:id="@+id/hargainput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:visibility="gone"
+        android:enabled="false"
+        android:inputType="text"
+        android:id="@+id/etiduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnbatal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#E80C3F"
+        android:text="Batalkan Pesanan"
+        android:layout_gravity="right"
+        />
+</LinearLayout>
+</ScrollView>
