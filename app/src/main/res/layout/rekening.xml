@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:id="@+id/keluar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_cancel_24"
+                    android:textColor="#000"
+                    android:layout_gravity="right"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Batas waktu Pembayaran Anda 24 jam. Silahkan lakukan pembayaran ke bank di bawah ini :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Catatan : Uang yang sudah ditransfer tidak bisa dikembalikan"
+                    android:textColor="#E30B0B"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mandiri" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Bank          : Mandiri"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Rekening     :   9876543210"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atas Nama              :   Dyah Ayu Lenita"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="18dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnkonfirmasi"
+                    android:text="Konfirmasi Pembayaran"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#fff"
+                    android:background="#3BB5EC"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dyah Ayu Salon</string>
+    <string name="hyperlink2"><a href="https://api.whatsapp.com/send?phone=6285232249295"></a></string>
+    <string name="fb"><a href="https://facebook.com/dyahaiiyuw.makeup"></a></string>
+    <string name="ig"><a href="https://instagram.com/dyah_ayu_salon?utm_medium=copy_link"></a></string>
+    <string name="alamat"><a href="https://goo.gl/maps/ExyJUU3MQijx3jjc9"></a></string>
+    <string-array
+
+        name="android_dropdown_arrays">
+
+        <item>Pilih </item>
+
+        <item>Apel</item>
+
+        <item>Jeruk</item>
+
+        <item>Pisang</item>
+
+        <item>Semangka</item>
+
+        <item>Melon</item>
+
+        <item>Rambutan</item>
+
+        <item>Anggur</item>
+
+    </string-array>
+</resources>
