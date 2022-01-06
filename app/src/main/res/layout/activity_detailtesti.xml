@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4B3AE"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4B3AE"
+    tools:context=".DetailTestiActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="3dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10" />
+
+    <TextView
+        android:id="@+id/textViewtgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:text="aaa" />
+
+    <TextView
+        android:id="@+id/textViewket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewtgl"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:text="aaa" />
+
+    <TextView
+        android:id="@+id/textViewnama"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textViewket"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="aaa" />
+</RelativeLayout>
+</ScrollView>
