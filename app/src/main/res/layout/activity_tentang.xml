@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE4B2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE4B2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ictentang" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@android:color/black"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:drawablePadding="10dp"
+                                android:drawableTint="#301A27"
+                                android:gravity="center"
+                                android:text="Jam Buka :"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvJam"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tvDate"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawableStart="@drawable/ic_baseline_access_time_24"
+                                android:drawablePadding="10dp"
+                                android:gravity="center"
+                                android:text="Senin - Minggu : 08.00 - 19:00 WIB"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:id="@+id/view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="3dp"
+                                android:layout_below="@id/tvJam"
+                                android:layout_marginTop="24px"
+                                android:background="#473921"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/tvdetail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/view"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:drawablePadding="10dp"
+                                android:drawableTint="@color/colorPrimary"
+                                android:text="Kami bergerak dibidang jasa. Jasa yang kami tawarkan adalah perawatan rambut, tata rias wajah (make up), perawatan wajah seperti facial dan tanam bulu mata. Selain itu kami juga menyewakan perlengkapan pesta (tenda, dekorasi, photo dan video, upacara adat) untuk pernikahan yang dikemas dalam satu paket dan bisa dipesan melalui website maupun aplikasi android."
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
+</ScrollView>
